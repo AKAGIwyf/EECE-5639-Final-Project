@@ -1,7 +1,11 @@
 # Project Proposal
-#### 002839146 Yifan Wang                   002842604 Dawei Wang
+#### 002839146 Yifan Wang                   
 
-#### 002839248 Jiatong Wu                    002240062 Tianqi Jiao
+#### 002842604 Dawei Wang
+
+#### 002839248 Jiatong Wu                    
+
+#### 002240062 Tianqi Jiao
 
 #### 
 
