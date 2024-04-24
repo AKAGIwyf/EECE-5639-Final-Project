@@ -6,21 +6,16 @@ from utils.general import check_img_size, check_requirements, check_imshow, non_
     scale_coords, xyxy2xywh, strip_optimizer, set_logging, increment_path
 from utils.plots import plot_one_box
 from utils.torch_utils import select_device, load_classifier, time_synchronized
-from yolov8.utils.general import (
+from utils.general import (
     check_img_size, non_max_suppression, apply_classifier, scale_coords, xyxy2xywh, strip_optimizer)
-from yolov8.utils.torch_utils import select_device, load_classifier, time_synchronized
+from utils.torch_utils import select_device, load_classifier, time_synchronized
 from deep_sort.utils.parser import get_config
 from deep_sort.deep_sort import DeepSort
-from counter.draw_counter import draw_up_down_counter
 import argparse
-import platform
-import shutil
 from pathlib import Path
 import torch
 import torch.backends.cudnn as cudnn
 import cv2
-import os
-from PIL import Image
 from pylab import *
 from matplotlib.pyplot import ginput, ion, ioff
 
